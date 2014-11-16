@@ -1,0 +1,8 @@
+{
+  "name": "socketry-server",
+  "version": "0.0.1",
+  "description": "A simple server for socketry-client",
+  "dependencies": {
+    "ws": "^0.4.32"
+  }
+}
