@@ -2,6 +2,9 @@
   "name": "socketry-server",
   "version": "0.0.1",
   "description": "A simple server for socketry-client",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "ws": "^0.4.32"
   }

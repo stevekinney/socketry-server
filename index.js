@@ -1,5 +1,7 @@
 var WebSocketServer = require('ws').Server;
-var socket = new WebSocketServer({ port: 8080 });
+var socket = new WebSocketServer({ port: 8080 }, function () {
+  console.log('WebSocket server started on Port 8080...')
+});
 
 socket.broadcast = function(data) {
   this.clients.forEach(function (client) {
